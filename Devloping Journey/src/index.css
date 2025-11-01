@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
 }
 html,body{
   height: 100%;
@@ -11,4 +10,35 @@ html,body{
 body{
   background-color: #111;
   
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: #222;
+  color: rgb(255, 255, 255);
+  width: 300px;
+  margin: 30px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 1rem;
+}
+.card h2{
+  font-size: 15px;
+  margin: 10px 0;
+}
+.card img{
+  height: 150px;
+  width: 150px;
+  object-fit: conver;
+  border-radius: 50%;
+}
+.card button{
+  border: 2px solid black;
+  color: rgb(15, 24, 31);
+  background-color: rgb(29, 146, 204);
+  padding: 10px 19px;
+  outline: none;
+  border-radius: 12px;
 }
